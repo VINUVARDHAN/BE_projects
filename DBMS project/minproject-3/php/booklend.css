@@ -1,0 +1,16 @@
+body{
+    color:rgb(10, 247, 136);
+    font-family: cursive;
+    text-align:center;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: 1cm;
+}
+h2{
+    margin-top: 10%;
+}
+a{
+    text-decoration:none;
+    font-style:cursive;
+    color:rgb(12, 201, 248);
+}

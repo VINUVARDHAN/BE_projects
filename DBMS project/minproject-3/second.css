@@ -1,0 +1,152 @@
+body{
+    font-family: cursive;
+    background-image: url(images/pic22.jpg);
+    background-size: cover;
+}
+.vvvvv{
+    font-size: 2em;
+    letter-spacing: 2px;
+    background-image:linear-gradient(90deg,black,white,black);
+    overflow: hidden;
+    background-repeat: no repeat;
+    position: relative;
+    background-size: 80%;
+    animation:animate 3s linear infinite;
+    -webkit-text-fill-color: rgba(255,255,255,1.1);
+    font-style: cursive;
+    text-align: center;
+}
+@keyframes animate{
+    0%{
+        background-position: -500%;
+        color: whitesmoke;
+    }
+
+    50%{
+        background-position: 250%;
+        color: black;
+    }
+
+    100%{
+        background-position: 500%;
+        color: white;
+    }
+}
+h2{
+    font-size: 1.5cm;
+    animation: mymove 10s infinite;
+position: relative;
+animation-direction: alternate;
+text-align: center;
+text-shadow: 4px 4px 4px rgb(3, 243, 163);
+transition-duration: 1s; 
+font-family: cursive;
+color: rgba(10, 9, 9, 0.24);
+text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+-webkit-text-stroke:0.2cm solid black;
+}
+
+@keyframes mymove{
+    from{left:-250px;
+    }
+    to{
+        left:300px;
+    }
+    }
+.www{
+    margin-left: 20px;
+ }
+ ul li a{
+     color: black;
+     text-decoration: none;
+ }
+ ul li a:hover{
+     background-color: rgb(21, 26, 25);
+     border-radius: 20%;
+     box-shadow: 5px 5px 4px rgb(54, 53, 53);
+     color: whitesmoke;
+     border-style: ridge;
+     transition: 0.5s;
+ }
+ ul li{
+    display: inline;
+    font-size: 0.7cm;
+    background-color: rgb(136, 168, 158);
+    color: black;
+    border-radius: 20%;
+    box-shadow: 5px 5px 4px rgb(16, 17, 15);
+    border-style: solid;
+}
+nav{
+    position: absolute;
+    right:10%;
+}
+.para{
+    margin-top: 100px;
+    font-size: 0.9cm; 
+    width:1000px;
+    position: relative;
+    left: 20px;
+    color: blanchedalmond;
+    text-shadow: 3px 3px 3px black;
+ }
+ .divi{
+    background-image: url('images/pic11.jpg');
+    width: 420px;
+    height:250px;
+    position: absolute;
+    left: 1130px;
+    top: 500px;
+    background-size: cover;
+    border-radius: 10px;
+    border-color:4px solid rgb(242, 243, 243);
+    transition-duration: 2s;
+    animation-name: nonthing;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+.divi:hover{
+    width: 420px;
+    height: 240px;
+    box-shadow: 10px 10px 8px rgb(12, 3, 3);
+    transition-duration: 1s;
+}
+.new{
+    font-size:0.9cm;
+    color: blanchedalmond;
+    text-shadow: 1px 1px 1px black;
+    position: absolute;
+    top: 1000px;
+    left: 20px;
+}
+
+@keyframes nonthing{
+				
+    0%,100% { background-image: url('images/login.jpg'); }
+33% { background-image: url('images/pic11.jpg'); }
+    65% { background-image: url('images/login3.jpg'); }
+}
+.dd{
+    margin-top: 20px;
+    font-size: 0.7cm;
+    width: 1000px;
+    position: absolute;
+    left: 20px;
+    color: blanchedalmond;
+    text-shadow: 3px 3px 3px black ;
+    
+
+}

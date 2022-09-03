@@ -1,0 +1,45 @@
+body{
+    font-family: cursive;
+    background-image: url(images/pic18.jpg);
+    background-size: cover;
+    text-align: center
+}
+h1{
+    font-size: 2cm;
+    text-shadow:2px 2px 2px white;
+    animation: mymove 5s infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+form{
+    font-size: 1cm;
+    text-justify: newspaper;
+    transition-duration: 4s;
+}
+
+.login{
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
+input{
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    height: 30px;
+    font-family: cursive
+}
+@keyframes mymove{
+    from{left:-300px;
+    }
+    to{
+        left:300px;
+    }
+    }

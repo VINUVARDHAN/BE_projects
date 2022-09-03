@@ -1,0 +1,9 @@
+body{
+    background-image:url(images/pic2.jpg);
+    background-size: cover;
+    font-family: cursive;
+    color: rgb(14, 11, 11);
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(91, 233, 233);
+    background-image: linear-gradient(to left,rgb(80, 69, 243),rgb(71, 186, 240),rgb(96, 233, 203),rgb(109, 169, 238),rgb(27, 27, 250));
+}

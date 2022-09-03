@@ -1,0 +1,80 @@
+
+        h1{
+            color: transparent;
+            text-align: center;
+        }
+        .mian{
+            width: 1000px;
+            text-align: center;
+            margin: 0 auto;
+            font-size: 0.8cm;
+            list-style: none;
+            margin-top: 0;
+            text-shadow: 6px 6px 6px rgb(1, 3, 17);            text-align: left;
+            transition-duration: 3s; 
+        }
+        
+        h2{
+            font-size: 1.5cm;
+            animation: mymove 10s infinite;
+    position: relative;
+    animation-direction: alternate;
+    text-align: center;
+    text-shadow: 6px 6px 6px rgb(1, 3, 17);
+    transition-duration: 1s; }
+        h2:hover{
+            font-size:1.8cm;
+            transition-duration: 1s;
+        }
+        
+        .wow{width: 400px;
+            height: 250px;
+            background-size: cover;
+            margin: auto;
+            list-style: none;
+            background-image: url(images/login.jpg);
+            border-radius: 10px;
+            animation-name: nonthing;
+            animation-duration: 15s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+              transition-duration: 1s;          
+        }
+        .wow:hover{
+            width:450px;
+            height:285px;
+            transition-duration: 1s;
+        }
+        body{
+            background-image: url(images/pic9.jpg);
+            font-family: cursive;
+            color: white;
+            background-size: cover;
+          
+           
+            
+
+        }
+        @keyframes nonthing{
+				
+                0%,100% { background-image: url('images/login.jpg'); }
+            33% { background-image: url('images/pic11.jpg'); }
+                65% { background-image: url('images/login3.jpg'); }
+            }
+
+            .new{
+                font-size: 0.9cm;
+                text-align:center;
+            }
+				a{
+                    color: aqua
+                }
+                @keyframes mymove{
+                    from{left:-250px;
+                    }
+                    to{
+                        left:300px;
+                    }
+                    }
+                    
+    

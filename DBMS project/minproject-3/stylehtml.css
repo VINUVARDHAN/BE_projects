@@ -1,0 +1,91 @@
+body{
+    font-family: cursive;
+    background-image: url(images/pic17.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1cm;
+    animation-name: blink;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 20px;
+    transition-duration: 1s;
+    
+
+}
+form{
+    text-shadow: 4px 4px 4px black;
+    text-align:center ;
+}
+.submit:hover{
+    color: black;
+    background-color: white;
+}
+h1{
+    font-size: 2cm;
+}
+label{
+    font-size: 1cm;
+    text-align: left;
+}
+input{
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    font-size: 0.5cm;
+    border-radius: 10px;
+    box-align: right;
+}
+h1{
+    animation: mymove 6s infinite;
+    position: relative;
+    animation-direction: alternate;
+    text-shadow: 4px 4px 4px black;
+    
+}
+.white{
+    color: white;
+    animation-name: blink2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.submit{
+    margin-top: 10px;
+}
+@keyframes blink{
+    0%,100%{
+        color: black;
+    }
+50%{color:  white;
+    }
+    
+}
+@keyframes blink2{
+    0%,100%{
+        color: white;
+        text-shadow: 4px 4px 4px black;
+
+    }
+50%{color:  black;
+    text-shadow: 4px 4px 4px white;
+
+    }
+    
+}
+@keyframes mymove{
+    from{left:-150px;
+    }
+    to{
+        left:180px;
+    }
+    }
+
+    .ggg{
+        margin-top: 80px;
+    }
+
+
