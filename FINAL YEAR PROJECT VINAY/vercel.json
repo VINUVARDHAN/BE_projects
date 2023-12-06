@@ -1,0 +1,14 @@
+{
+    "builds":[
+        {
+            "src":"creatingServerForWebApplication.py",
+            "use":"@vercel/python"
+        }
+    ],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "dest":"creatingServerForWebApplication.py"
+        }
+    ]
+}
